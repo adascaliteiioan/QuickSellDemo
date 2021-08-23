@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QuickSellApp</string>
+    <string name="navigation_drawer_open">Deschide navigation drawer</string>
+    <string name="navigation_drawer_close">Inchide navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Setari</string>
+
+    <string name="menu_home">Acasa</string>
+    <string name="menu_help">Ajutor</string>
+    <string name="menu_contact">Contact</string>
+    <string name="help_lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse convallis sapien id aliquam commodo. Aliquam luctus varius velit, et elementum magna. In scelerisque viverra dictum. Cras eget elit et elit euismod pretium. Fusce posuere venenatis neque in lacinia. Aenean pharetra augue ut nulla vestibulum, non dictum augue efficitur. In sem velit, vehicula ut neque vitae, accumsan dignissim nibh. Sed maximus, est et interdum blandit, mi erat accumsan nisl, non molestie leo urna in sem. Cras et tellus porta, lacinia tortor non, lobortis mauris. Vestibulum magna erat, fermentum sit amet risus ac, luctus congue arcu. Phasellus tincidunt maximus maximus. Aliquam ultricies ante ac libero varius ultrices.  Nullam felis dolor, dignissim at feugiat sed, auctor et erat. Aliquam mollis sodales viverra. Praesent vitae dui imperdiet, pellentesque mi eu, commodo turpis. Sed risus justo, viverra vitae ipsum maximus, suscipit scelerisque lacus. Nunc tincidunt mauris in mauris mollis pretium. Suspendisse scelerisque erat nulla. Quisque eu interdum enim. Donec interdum bibendum est id laoreet. Nam convallis porta gravida. Donec efficitur felis non lacus pellentesque ullamcorper. Integer condimentum nibh at lacus laoreet vestibulum. Phasellus tempus finibus molestie. Aliquam sed nulla sed erat facilisis dictum vitae et risus.  Nam tincidunt mi leo, sit amet varius urna congue vel. Nulla mattis pellentesque justo, et posuere massa convallis eu. Donec vehicula tortor vel magna ornare congue. Vivamus nisl nibh, venenatis ut commodo ac, commodo et nibh. In bibendum enim in augue fringilla, feugiat hendrerit felis venenatis. Vestibulum id nisl pellentesque, faucibus tortor quis, lobortis leo. Maecenas quis commodo nulla. Proin vulputate et nisl et pulvinar. Vestibulum a massa elit. Cras pellentesque diam id consequat mollis. Quisque risus elit, feugiat eu augue ut, suscipit semper nisl. Curabitur eget augue eget dolor pharetra vehicula. Integer eget justo eget nunc accumsan accumsan id aliquet lectus. Duis semper erat id purus hendrerit, ac vestibulum massa ultrices. Pellentesque auctor aliquam rutrum. Praesent ultrices, lacus ut bibendum mattis, nibh dui viverra nunc, at commodo enim est sit amet nunc.  Fusce non mauris lectus. Suspendisse nec dui a nulla vehicula consectetur. Cras ultricies nisl eget neque varius, ut euismod quam viverra. Ut pretium ultricies purus, nec luctus turpis rhoncus maximus. Curabitur porttitor eros ac vulputate blandit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam nunc nisl, convallis nec tellus in, aliquet feugiat neque. Morbi nec nisi dui. Ut porta ut metus at faucibus. Aliquam vestibulum ullamcorper urna, in rutrum ipsum tempor sit amet. Cras vehicula nulla quis maximus congue. Sed et ex eu nisi semper condimentum. Aliquam nec volutpat augue. Donec in fermentum quam.  Proin ornare laoreet fringilla. Quisque vulputate lectus in tellus mollis, et tincidunt risus suscipit. Sed molestie aliquam ex viverra varius. In ac interdum magna. Etiam eleifend lacinia facilisis. Etiam molestie tempor varius. Quisque nec commodo magna, eget mollis sem. Nullam quis ornare ante. Aliquam id feugiat elit, sit amet sollicitudin lacus. Suspendisse nisl lorem, commodo quis gravida eget, fermentum et diam. Nam lacus felis, fringilla vitae sagittis ac, venenatis sed libero.</string>
+    <string name="contact_send_email">Trimite Email</string>
+    <string name="contact_disclaimer">Niciun angajat sau agent nu este autorizat să încheie un acord obligatoriu în numele denumirii companiei dvs. cu o altă parte prin e-mail, fără confirmare scrisă expresă de către A. Director.</string>
+    <string name="home_close">Inchide</string>
+    <string name="home_quick_sell">Vanzari rapide</string>
+    <string name="home_products">Produse</string>
+    <string name="action_languages">Internationalizare</string>
+    <string name="language_ro">Romana</string>
+    <string name="language_en">Engleza</string>
+    <string name="quick_sell_categories">Categorii</string>
+    <string name="quick_sell_select_category">Alege o categorie!</string>
+    <string name="quick_sell_get_image_title">Alege de unde adaugi imaginea</string>
+    <string name="no_amount_title">Eroare total</string>
+    <string name="no_amount_message">Adauga o valoare mai mare ca 0</string>
+    <string name="product_details_description_hint">Descriere</string>
+    <string name="product_details_save">Salveaza</string>
+    <string name="product_details_name_error">Completeaza campul nume</string>
+    <string name="payment_card">Card</string>
+    <string name="payment_cash">Cash</string>
+    <string name="payment_cancel">Anuleaza</string>
+</resources>

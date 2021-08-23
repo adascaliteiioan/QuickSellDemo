@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="4dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/amount_tv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="0"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@id/keyboard_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/keyboard_1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="4dp"
+        android:background="@color/bg_grey"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="1"
+        android:focusable="true"
+        android:clickable="true"
+        android:textSize="18sp"
+        app:cornerRadius="8dp"
+        app:layout_constraintBottom_toTopOf="@id/keyboard_4"
+        app:layout_constraintEnd_toStartOf="@id/keyboard_2"
+        app:layout_constraintStart_toStartOf="@id/amount_tv"
+        app:layout_constraintTop_toBottomOf="@id/amount_tv" />
+
+    <Button
+        android:id="@+id/keyboard_2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="4dp"
+        android:background="@color/bg_grey"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="2"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@id/keyboard_5"
+        app:layout_constraintEnd_toStartOf="@id/keyboard_3"
+        app:layout_constraintStart_toEndOf="@id/keyboard_1"
+        app:layout_constraintTop_toBottomOf="@id/amount_tv" />
+
+    <Button
+        android:id="@+id/keyboard_3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="4dp"
+        android:background="@color/bg_grey"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="3"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@id/keyboard_6"
+        app:layout_constraintEnd_toStartOf="@id/keyboard_C"
+        app:layout_constraintStart_toEndOf="@id/keyboard_2"
+        app:layout_constraintTop_toBottomOf="@id/amount_tv" />
+
+    <Button
+        android:id="@+id/keyboard_C"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="4dp"
+        android:background="@color/bg_grey"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="C"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@id/keyboard_X"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/keyboard_3"
+        app:layout_constraintTop_toBottomOf="@id/amount_tv" />
+
+    <Button
+        android:id="@+id/keyboard_4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="4dp"
+        android:background="@color/bg_grey"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="4"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@id/keyboard_7"
+        app:layout_constraintEnd_toStartOf="@id/keyboard_5"
+        app:layout_constraintStart_toStartOf="@id/amount_tv"
+        app:layout_constraintTop_toBottomOf="@id/keyboard_1" />
+
+    <Button
+        android:id="@+id/keyboard_5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="4dp"
+        android:background="@color/bg_grey"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="5"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@id/keyboard_8"
+        app:layout_constraintEnd_toStartOf="@id/keyboard_6"
+        app:layout_constraintStart_toEndOf="@id/keyboard_4"
+        app:layout_constraintTop_toBottomOf="@id/keyboard_2" />
+
+    <Button
+        android:id="@+id/keyboard_6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="4dp"
+        android:background="@color/bg_grey"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="6"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@id/keyboard_9"
+        app:layout_constraintEnd_toStartOf="@id/keyboard_X"
+        app:layout_constraintStart_toEndOf="@id/keyboard_5"
+        app:layout_constraintTop_toBottomOf="@id/keyboard_3" />
+
+    <Button
+        android:id="@+id/keyboard_X"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:background="@color/bg_grey"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="X"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@id/keyboard_6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/keyboard_6"
+        app:layout_constraintTop_toBottomOf="@id/keyboard_C" />
+
+    <Button
+        android:id="@+id/keyboard_7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="4dp"
+        android:background="@color/bg_grey"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="7"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/keyboard_double_multiply_ten"
+        app:layout_constraintEnd_toStartOf="@id/keyboard_8"
+        app:layout_constraintStart_toStartOf="@id/amount_tv"
+        app:layout_constraintTop_toBottomOf="@id/keyboard_4" />
+
+    <Button
+        android:id="@+id/keyboard_8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="4dp"
+        android:background="@color/bg_grey"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="8"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@id/keyboard_0"
+        app:layout_constraintEnd_toStartOf="@id/keyboard_9"
+        app:layout_constraintStart_toEndOf="@id/keyboard_7"
+        app:layout_constraintTop_toBottomOf="@id/keyboard_5" />
+
+    <Button
+        android:id="@+id/keyboard_9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="4dp"
+        android:background="@color/bg_grey"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="9"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@id/keyboard_triple_multiply_ten"
+        app:layout_constraintEnd_toStartOf="@id/keyboard_ok"
+        app:layout_constraintStart_toEndOf="@id/keyboard_8"
+        app:layout_constraintTop_toBottomOf="@id/keyboard_6" />
+
+    <Button
+        android:id="@+id/keyboard_ok"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        android:background="@color/bg_grey"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="OK"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/keyboard_9"
+        app:layout_constraintTop_toTopOf="@id/keyboard_9" />
+
+    <Button
+        android:id="@+id/keyboard_double_multiply_ten"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="4dp"
+        android:background="@color/bg_grey"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text=".00"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/keyboard_0"
+        app:layout_constraintStart_toStartOf="@id/amount_tv"
+        app:layout_constraintTop_toBottomOf="@id/keyboard_7" />
+
+    <Button
+        android:id="@+id/keyboard_0"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="4dp"
+        android:background="@color/bg_grey"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="0"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/keyboard_triple_multiply_ten"
+        app:layout_constraintStart_toEndOf="@id/keyboard_double_multiply_ten"
+        app:layout_constraintTop_toBottomOf="@id/keyboard_8" />
+
+    <Button
+        android:id="@+id/keyboard_triple_multiply_ten"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:background="@color/bg_grey"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text=".000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/keyboard_9"
+        app:layout_constraintStart_toEndOf="@id/keyboard_0"
+        app:layout_constraintTop_toBottomOf="@id/keyboard_9" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

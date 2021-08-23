@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_languages_group"
+        android:icon="@drawable/ic_globe"
+        android:title="@string/action_languages"
+        app:showAsAction="ifRoom" >
+
+        <menu>
+            <item android:icon="@drawable/ic_romania"
+                android:title="@string/language_ro"
+                android:id="@+id/action_language_ro"
+                />
+
+            <item android:icon="@drawable/ic_united_kingdom"
+                android:title="@string/language_en"
+                android:id="@+id/action_language_en"
+                />
+        </menu>
+
+    </item>
+</menu>
